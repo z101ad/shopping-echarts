@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#app {
+    background: url(./assets/bg.jpg) no-repeat center top;
+    background-size: cover;
+    h1 {
+        width: 100%;
+        height: 54px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 54px;
+        color:#fff;
+        font-weight: 700;
+    }
+    .main {
+        display: flex;
+        padding-top: 6.75px;
+        width: 100%;
+        .left, .right {
+            width: 353px;
+            .top, .bottom {
+                width: 324px;
+                height: 277px;
+                margin:13.5px;
+                border: 1px solid #00f;
+                background-color: rgb(10, 127, 252);
+                .title {
+                    width: 100%;
+                    height: 33px;
+                    color:#fff;
+                    font-weight: 700;
+                    text-align: center;
+                    font-size: 14px;
+                    line-height: 33px;
+                }
+                .content {
+                    width: 100%;
+                    height: 243px;
+                }
+            }
+        }
+        .middle {
+            flex:1 1 auto;
+            margin:13.5px;
+            border: 1px solid #00f;
+            padding:6.75px
+        }
+    }
+}
